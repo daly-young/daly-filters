@@ -1,0 +1,30 @@
+{
+  "name": "daly-filters",
+  "version": "1.0.0",
+  "description": "vue filters",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --mode=production",
+    "dev": "node_modules/.bin/webpack --mode=development --watch",
+    "test": "jest"
+  },
+  "keywords": [
+    "vue",
+    "filters"
+  ],
+  "author": "daly",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^26.0.1",
+    "babel-loader": "^8.1.0",
+    "jest": "^25.4.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "jest": {
+    "testRegex": "/test/.*.test.jsx?$"
+  }
+}
